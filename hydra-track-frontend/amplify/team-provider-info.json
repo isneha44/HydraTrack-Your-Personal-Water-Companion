@@ -1,0 +1,33 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-hydratrackfrontend-dev-22639-authRole",
+      "UnauthRoleArn": "arn:aws:iam::129061886246:role/amplify-hydratrackfrontend-dev-22639-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::129061886246:role/amplify-hydratrackfrontend-dev-22639-authRole",
+      "Region": "eu-north-1",
+      "DeploymentBucketName": "amplify-hydratrackfrontend-dev-22639-deployment",
+      "UnauthRoleName": "amplify-hydratrackfrontend-dev-22639-unauthRole",
+      "StackName": "amplify-hydratrackfrontend-dev-22639",
+      "StackId": "arn:aws:cloudformation:eu-north-1:129061886246:stack/amplify-hydratrackfrontend-dev-22639/92014330-c6c4-11ee-b4ac-0e8cb2a40f78",
+      "AmplifyAppId": "d1r4prxwjmk90x",
+      "AuthTriggerTemplateURL": "https://s3.amazonaws.com/amplify-hydratrackfrontend-dev-22639-deployment/amplify-cfn-templates/auth/auth-trigger-cloudformation-template.json"
+    },
+    "categories": {
+      "auth": {
+        "hydratrackfrontendb60cf038": {}
+      },
+      "function": {
+        "hydratrackfrontendb60cf038CustomMessage": {
+          "REDIRECTURL": "http://localhost:3001/",
+          "EMAILSUBJECT": "Successfully signup",
+          "EMAILMESSAGE": "HydraTrack",
+          "deploymentBucketName": "amplify-hydratrackfrontend-dev-22639-deployment",
+          "s3Key": "amplify-builds/hydratrackfrontendb60cf038CustomMessage-4d5a4779747533326359-build.zip"
+        }
+      },
+      "api": {
+        "hydratrackfrontend": {}
+      }
+    }
+  }
+}
